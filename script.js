@@ -148,7 +148,6 @@
 						//SCM Play link
 						var title = tar.title.replace(/^(SCM:|\[SCM\])( )?/i,'');
 						var url = tar.href;
-						SCM.play({title:title,url:url});
 						e.preventDefault();
 					}else if(tar.href.match(/\.css$/)){
 						//auto add skin
